@@ -8,7 +8,7 @@ g++ pms.cpp -static -O3 -o NuPBO-DeepOpt+
 
 ## Code execution command
 
-./NuPBO-DeepOpt+ <input_file.wecnf> <cutoff_time> <seed> <input_file.opb>
+./NuPBO-DeepOpt+ `<input_file.wecnf>` `<cutoff_time>` `<seed>` `<input_file.opb>`
 
 - input_file.wecnf is a PBO instance encoded into .wecnf file format.
 - input_file.opb is a PBO instance encoded into .opb file format.
@@ -35,8 +35,8 @@ convert to test.wecnf :
 - The parameters line is "p wecnf number_vars number_constraints top". Each constraint has a weight, which is the first integer in the constraint. 
   Weights must be greater than or equal to 1, and smaller than 2^63. The sum of the weights must be less than 2^64-1. 
   Hard constraints have weight "top" and soft constraints have a weight smaller than "top". "top" will always be greater than the sum of the soft clause weights. 
-- The second number of each constraint is the degree of the constraint followed by the coefficient of literal and literal itself. 
-  Each constraint must end with '0'. Constraint: '<weight>' '<degree>' '<coeff>' '<lit>' ... '<coeff>' '<lit>' 0
+- The second number of each constraint is the degree of the constraint followed by the coefficient of literal and literal itself.  
+  Each constraint must end with '0'. Constraint: `<weight>` `<degree>` `<coeff>` `<lit>` ... `<coeff>` `<lit>` 0
 
 ## Citation
 
