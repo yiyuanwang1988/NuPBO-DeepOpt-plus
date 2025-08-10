@@ -36,7 +36,7 @@ convert to test.wecnf :
   Weights must be greater than or equal to 1, and smaller than 2^63. The sum of the weights must be less than 2^64-1. 
   Hard constraints have weight "top" and soft constraints have a weight smaller than "top". "top" will always be greater than the sum of the soft clause weights. 
 - The second number of each constraint is the degree of the constraint followed by the coefficient of literal and literal itself. 
-  Each constraint must end with '0'. Constraint: <weight> <degree> <coeff> <lit> ... <coeff> <lit> 0
+  Each constraint must end with '0'. Constraint: '<weight>' '<degree>' '<coeff>' '<lit>' ... '<coeff>' '<lit>' 0
 
 ## Citation
 
