@@ -38,6 +38,11 @@ convert to test.wecnf :
 - The second number of each constraint is the degree of the constraint followed by the coefficient of literal and literal itself.  
   Each constraint must end with '0'. Constraint: `<weight>` `<degree>` `<coeff>` `<lit>` ... `<coeff>` `<lit>` 0
 
+## License
+This library is licensed under the GNU Lesser General Public License v2.1 (LGPL-2.1).
+You are free to use, copy, modify, and redistribute this library under the terms of the LGPL-2.1.
+See the LICENSE file for the full text.
+ 
 ## Citation
 
 [1] Yujiao Zhao, Yiyuan Wang, Yi Chu, Wenbo Zhou, Shaowei Cai, Minghao Yin: Improving Local Search Algorithm for Pseudo Boolean Optimization. Journal of Artificial Intelligence Research, 83, 2025.
